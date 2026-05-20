@@ -1,0 +1,40 @@
+name: Scrape HGC Registry
+
+on:
+  schedule:
+    - cron: "0 8 * * *"  # Daily 09:00 CET (08:00 UTC)
+  workflow_dispatch:       # allow manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Run scraper
+        run: |
+          chmod +x scrape_gaming_commission.sh
+          ./scrape_gaming_commission.sh
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ingest CSV into DB
+        run: python ingest.py gaming_platforms.csv
+
+      - name: Commit updated DB
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add hgc.db gaming_platforms.csv
+          git diff --cached --quiet || git commit -m "chore: refresh HGC registry $(date -u +%Y-%m-%d)"
+          git push
