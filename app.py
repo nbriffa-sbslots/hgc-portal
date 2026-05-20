@@ -9,6 +9,31 @@ import sqlite3
 from watchlist import add_to_watchlist, get_watchlist, remove_from_watchlist
 from rapidfuzz import process, fuzz
 
+# ── Password gate ──────────────────────────────────────────────────────────────
+def _check_password():
+    if st.session_state.get("authenticated"):
+        return True
+    st.markdown("""
+    <div style="max-width:360px;margin:80px auto;text-align:center">
+      <h2 style="color:#c8d8f0">🏛️ HGC Portal</h2>
+      <p style="color:#7a9cc8">Superbet · Greece Certification Lookup</p>
+    </div>
+    """, unsafe_allow_html=True)
+    col = st.columns([1, 2, 1])[1]
+    with col:
+        pwd = st.text_input("Password", type="password", label_visibility="collapsed",
+                            placeholder="Enter password")
+        if st.button("Login", use_container_width=True, type="primary"):
+            if pwd == st.secrets.get("APP_PASSWORD", ""):
+                st.session_state["authenticated"] = True
+                st.rerun()
+            else:
+                st.error("Incorrect password.")
+    return False
+
+if not _check_password():
+    st.stop()
+
 KNOWN_PROVIDERS = [
     "Amusnet", "Big Time Gaming", "Egt Digital", "Endorphina via Bragg",
     "Evolution", "Games Global", "Greentube", "Hacksaw via Relax", "IGT",
