@@ -38,4 +38,4 @@ jobs:
           git add hgc.db gaming_platforms.csv
           git diff --cached --quiet || git commit -m "chore: refresh HGC registry $(date -u +%Y-%m-%d)"
           git push
-          git -c http.extraheader="" push https://x-access-token:${{ secrets.NBRIFFA_PAT }}@github.com/nbriffa-sbslots/hgc-portal.git main
+          git -c http.https://github.com/.extraheader="" push https://x-access-token:${{ secrets.NBRIFFA_PAT }}@github.com/nbriffa-sbslots/hgc-portal.git main
