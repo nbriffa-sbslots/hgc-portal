@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add hgc.db gaming_platforms.csv
+          git add hgc.db gaming_platforms.csv new_certs.json
           git diff --cached --quiet || git commit -m "chore: refresh HGC registry $(date -u +%Y-%m-%d)"
           git push
           git config --unset-all http.https://github.com/.extraheader || true
