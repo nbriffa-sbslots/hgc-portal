@@ -132,58 +132,65 @@ st.markdown("""
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 DB_PATH        = Path(__file__).parent / "hgc.db"
-RUNS_DIR       = Path(__file__).parent / "runs"
 NEW_CERTS_PATH = Path(__file__).parent / "new_certs.json"
-RUNS_DIR.mkdir(exist_ok=True)
 
 if not DB_PATH.exists():
     st.error("Database not found. Run `python ingest.py` first.")
     st.stop()
 
+# Ensure runs table exists
+def _ensure_runs_table():
+    con = sqlite3.connect(DB_PATH)
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS runs (
+            name      TEXT PRIMARY KEY,
+            saved_at  TEXT,
+            threshold INTEGER,
+            results   TEXT,
+            resolved  TEXT
+        )
+    """)
+    con.commit()
+    con.close()
+
+_ensure_runs_table()
+
 # ── Run persistence helpers ────────────────────────────────────────────────────
 def save_run(name: str, results: list, resolved: dict, threshold: int):
-    # Overwrite existing file if a run with this name already exists
-    existing = next(
-        (f for f in RUNS_DIR.glob("*.json")
-         if json.loads(f.read_text()).get("name") == name),
-        None,
+    con = sqlite3.connect(DB_PATH)
+    con.execute(
+        "INSERT OR REPLACE INTO runs (name, saved_at, threshold, results, resolved) VALUES (?,?,?,?,?)",
+        (name, datetime.now().isoformat(), threshold,
+         json.dumps(results, ensure_ascii=False),
+         json.dumps(resolved, ensure_ascii=False)),
     )
-    if existing:
-        path = existing
-    else:
-        slug = name.replace(" ", "_").replace("/", "-")
-        ts   = datetime.now().strftime("%Y%m%d_%H%M%S")
-        path = RUNS_DIR / f"{ts}_{slug}.json"
-    payload = {
-        "name":      name,
-        "saved_at":  datetime.now().isoformat(),
-        "threshold": threshold,
-        "results":   results,
-        "resolved":  resolved,
-    }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
-    return path
+    con.commit()
+    con.close()
 
 
 def load_runs() -> list[dict]:
-    seen_names: dict[str, dict] = {}  # name → run (newest wins)
-    for f in sorted(RUNS_DIR.glob("*.json"), reverse=True):
-        try:
-            data = json.loads(f.read_text())
-            data["_file"] = str(f)
-            name = data.get("name", "")
-            if name not in seen_names:
-                seen_names[name] = data
-            else:
-                # Stale duplicate — delete it silently
-                Path(f).unlink(missing_ok=True)
-        except Exception:
-            pass
-    return list(seen_names.values())
+    con = sqlite3.connect(DB_PATH)
+    rows = con.execute(
+        "SELECT name, saved_at, threshold, results, resolved FROM runs ORDER BY saved_at DESC"
+    ).fetchall()
+    con.close()
+    return [
+        {
+            "name":      r[0],
+            "saved_at":  r[1],
+            "threshold": r[2],
+            "results":   json.loads(r[3]),
+            "resolved":  json.loads(r[4]),
+        }
+        for r in rows
+    ]
 
 
-def delete_run(file_path: str):
-    Path(file_path).unlink(missing_ok=True)
+def delete_run(run_name: str):
+    con = sqlite3.connect(DB_PATH)
+    con.execute("DELETE FROM runs WHERE name = ?", (run_name,))
+    con.commit()
+    con.close()
 
 
 def run_status(run: dict) -> tuple[str, str]:
@@ -242,15 +249,15 @@ with st.sidebar:
             </div>
             """, unsafe_allow_html=True)
 
+            run_key = run["name"].replace(" ", "_").replace("/", "-")
             btn_col1, btn_col2, btn_col3 = st.columns(3)
             with btn_col1:
-                if st.button("▶ Load", key=f"load_{run['_file']}", use_container_width=True):
-                    try:
-                        fresh = json.loads(Path(run["_file"]).read_text())
-                    except Exception:
-                        fresh = run
+                if st.button("▶ Load", key=f"load_{run_key}", use_container_width=True):
                     prev_resolved_count = len(run.get("resolved", {}))
-                    new_resolved_count  = len(fresh.get("resolved", {}))
+                    # Re-read from DB to pick up any watch-list auto-resolutions
+                    fresh_runs = [r for r in load_runs() if r["name"] == run["name"]]
+                    fresh = fresh_runs[0] if fresh_runs else run
+                    new_resolved_count = len(fresh.get("resolved", {}))
                     wl_matches = new_resolved_count - prev_resolved_count
                     st.session_state["results"]    = fresh["results"]
                     st.session_state["threshold"]  = fresh["threshold"]
@@ -259,32 +266,33 @@ with st.sidebar:
                     st.session_state["wl_matches"] = max(wl_matches, 0)
                     st.rerun()
             with btn_col2:
-                rename_key = f"renaming_{run['_file']}"
-                if st.button("✏️", key=f"ren_{run['_file']}", use_container_width=True,
+                rename_key = f"renaming_{run_key}"
+                if st.button("✏️", key=f"ren_{run_key}", use_container_width=True,
                              help="Rename this run"):
                     st.session_state[rename_key] = not st.session_state.get(rename_key, False)
                     st.rerun()
             with btn_col3:
-                if st.button("🗑", key=f"del_{run['_file']}", use_container_width=True,
+                if st.button("🗑", key=f"del_{run_key}", use_container_width=True,
                              help="Delete this run"):
-                    delete_run(run["_file"])
+                    delete_run(run["name"])
                     st.rerun()
 
-            if st.session_state.get(f"renaming_{run['_file']}"):
+            if st.session_state.get(f"renaming_{run_key}"):
                 new_name = st.text_input(
                     "New name", value=run["name"],
-                    key=f"rename_input_{run['_file']}",
+                    key=f"rename_input_{run_key}",
                     label_visibility="collapsed",
                 )
-                if st.button("Save name", key=f"rename_save_{run['_file']}", use_container_width=True):
+                if st.button("Save name", key=f"rename_save_{run_key}", use_container_width=True):
                     new_name = new_name.strip()
                     if new_name and new_name != run["name"]:
-                        data = json.loads(Path(run["_file"]).read_text())
-                        data["name"] = new_name
-                        Path(run["_file"]).write_text(json.dumps(data, ensure_ascii=False, indent=2))
+                        con = sqlite3.connect(DB_PATH)
+                        con.execute("UPDATE runs SET name = ? WHERE name = ?", (new_name, run["name"]))
+                        con.commit()
+                        con.close()
                         if st.session_state.get("run_name") == run["name"]:
                             st.session_state["run_name"] = new_name
-                    st.session_state[f"renaming_{run['_file']}"] = False
+                    st.session_state[f"renaming_{run_key}"] = False
                     st.rerun()
 
             st.markdown("<div style='height:6px'></div>", unsafe_allow_html=True)
@@ -603,15 +611,14 @@ with page_lookup:
             )
         with save_col2:
             if st.button("💾 Save", disabled=not run_name_input.strip()):
-                rname    = run_name_input.strip()
-                run_path = save_run(rname, results, resolved, threshold)
+                rname = run_name_input.strip()
+                save_run(rname, results, resolved, threshold)
                 st.session_state["run_name"] = rname
                 open_games = [r for r in not_found_results if r["game_name"] not in resolved]
                 for r in open_games:
                     add_to_watchlist(
                         game_name=r["game_name"],
                         provider=r["provider"],
-                        run_file=str(run_path),
                         run_name=rname,
                         threshold=threshold,
                     )
@@ -886,13 +893,9 @@ with page_lookup:
                                     "operator":       None,
                                 }
                                 # Remove from watchlist if present
-                                run_file = ""
-                                for sr in load_runs():
-                                    if sr.get("name") == st.session_state.get("run_name"):
-                                        run_file = sr.get("_file", "")
-                                        break
-                                if run_file:
-                                    remove_from_watchlist(r["game_name"], run_file)
+                                current_run_name = st.session_state.get("run_name", "")
+                                if current_run_name:
+                                    remove_from_watchlist(r["game_name"], current_run_name)
                                 st.session_state["resolved"]   = resolved
                                 st.session_state["active_tab"] = "not_found"
                                 if st.session_state.get("run_name"):

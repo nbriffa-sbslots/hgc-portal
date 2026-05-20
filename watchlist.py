@@ -5,6 +5,7 @@ when a matching certification appears in the DB after a scrape + ingest.
 """
 
 import json
+import sqlite3
 from datetime import datetime
 from pathlib import Path
 
@@ -29,34 +30,32 @@ def _save(entries: list[dict]):
 def add_to_watchlist(
     game_name: str,
     provider: str,
-    run_file: str,
     run_name: str,
     threshold: int,
 ):
     """Add a game to the watch list if not already present."""
     entries = _load()
     for e in entries:
-        if e["game_name"] == game_name and e["run_file"] == run_file:
+        if e["game_name"] == game_name and e["run_name"] == run_name:
             return  # already watching
     entries.append(
         {
             "game_name": game_name,
-            "provider": provider,
-            "run_file": run_file,
-            "run_name": run_name,
+            "provider":  provider,
+            "run_name":  run_name,
             "threshold": threshold,
-            "added_at": datetime.now().isoformat(),
+            "added_at":  datetime.now().isoformat(),
         }
     )
     _save(entries)
 
 
-def remove_from_watchlist(game_name: str, run_file: str):
+def remove_from_watchlist(game_name: str, run_name: str):
     """Remove a resolved entry from the watch list."""
     entries = _load()
     entries = [
         e for e in entries
-        if not (e["game_name"] == game_name and e["run_file"] == run_file)
+        if not (e["game_name"] == game_name and e["run_name"] == run_name)
     ]
     _save(entries)
 
@@ -70,49 +69,43 @@ def check_watchlist(db_path) -> list[dict]:
     """
     Run the matcher against all watch list entries.
     For any entry where a match >= threshold is found:
-      - Update the saved run JSON's `resolved` dict with source "Watch list match"
+      - Update the run's resolved dict in SQLite
       - Remove the entry from the watch list
     Returns a list of resolved items for reporting.
     """
-    from pathlib import Path as _Path
-
     entries = _load()
     if not entries:
         return []
 
     resolved_items = []
+    con = sqlite3.connect(db_path)
 
-    # Group by run_file so we only load/save each run file once
+    # Group by run_name so we only load/save each run once
     by_run: dict[str, list[dict]] = {}
     for e in entries:
-        by_run.setdefault(e["run_file"], []).append(e)
+        by_run.setdefault(e["run_name"], []).append(e)
 
-    for run_file, run_entries in by_run.items():
-        run_path = _Path(run_file)
-        if not run_path.exists():
-            # Run file was deleted — remove orphaned watchlist entries
+    for run_name, run_entries in by_run.items():
+        row = con.execute(
+            "SELECT resolved FROM runs WHERE name = ?", (run_name,)
+        ).fetchone()
+        if not row:
+            # Run was deleted — clean up orphaned entries
             for e in run_entries:
-                remove_from_watchlist(e["game_name"], run_file)
+                remove_from_watchlist(e["game_name"], run_name)
             continue
 
-        try:
-            run_data = json.loads(run_path.read_text())
-        except Exception:
-            continue
-
-        run_resolved = run_data.setdefault("resolved", {})
+        run_resolved = json.loads(row[0])
         changed = False
 
         for e in run_entries:
-            # Skip if already resolved some other way
             if e["game_name"] in run_resolved:
-                remove_from_watchlist(e["game_name"], run_file)
+                remove_from_watchlist(e["game_name"], run_name)
                 continue
 
-            # Run matcher for this single game
             matches = match_games(
                 [(e["game_name"], e["provider"])],
-                db_path=_Path(db_path),
+                db_path=Path(db_path),
                 limit=1,
             )
             if not matches:
@@ -132,15 +125,20 @@ def check_watchlist(db_path) -> list[dict]:
                 resolved_items.append(
                     {
                         "game_name":     e["game_name"],
-                        "run_name":      e["run_name"],
+                        "run_name":      run_name,
                         "hgc_code":      m["hgc_code"],
                         "matched_title": m["matched_title"],
                         "confidence":    m["confidence"],
                     }
                 )
-                remove_from_watchlist(e["game_name"], run_file)
+                remove_from_watchlist(e["game_name"], run_name)
 
         if changed:
-            run_path.write_text(json.dumps(run_data, ensure_ascii=False, indent=2))
+            con.execute(
+                "UPDATE runs SET resolved = ? WHERE name = ?",
+                (json.dumps(run_resolved, ensure_ascii=False), run_name),
+            )
+            con.commit()
 
+    con.close()
     return resolved_items
