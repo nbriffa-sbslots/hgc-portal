@@ -48,7 +48,7 @@ def ingest(csv_path: Path = CSV_PATH, db_path: Path = DB_PATH):
     with open(csv_path, encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             row = {k: html.unescape(v) if isinstance(v, str) else v for k, v in row.items()}
-        cur = con.execute(
+            cur = con.execute(
                 "SELECT modified FROM certifications WHERE hgc_code = ?",
                 (row["EniaiosKodikosAdeias"],),
             )
