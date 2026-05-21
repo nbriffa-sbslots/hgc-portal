@@ -1,5 +1,174 @@
 {
-  "generated_at": "2026-05-19T14:21:43.667290",
-  "new_count": 0,
-  "items": []
+  "generated_at": "2026-05-21T09:12:48.601134",
+  "new_count": 21,
+  "items": [
+    {
+      "hgc_code": "HGC-036660-TM",
+      "title": "Mystic Dolphin Charge Up™",
+      "trade_name": "Mystic Dolphin Charge Up™",
+      "manufacturer": "RELAX GAMING LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 08:21"
+    },
+    {
+      "hgc_code": "HGC-036371-TM",
+      "title": "Action Strike Vault™",
+      "trade_name": "Action Strike Vault™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "21/05/2026 09:56"
+    },
+    {
+      "hgc_code": "HGC-036509-TM",
+      "title": "Mega Fire Blaze: Midnight Wizard™ B1",
+      "trade_name": "Mega Fire Blaze: Midnight Wizard™ B1",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 09:57"
+    },
+    {
+      "hgc_code": "HGC-036510-TM",
+      "title": "Kick Crash™",
+      "trade_name": "Kick Crash™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "21/05/2026 09:58"
+    },
+    {
+      "hgc_code": "HGC-036516-TM",
+      "title": "Stairway to Cash",
+      "trade_name": "Stairway to Cash",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "21/05/2026 10:01"
+    },
+    {
+      "hgc_code": "HGC-036517-TM",
+      "title": "Triple Action Cash Strike",
+      "trade_name": "Triple Action Cash Strike",
+      "manufacturer": "Blueprint Technologies (Malta) Ltd.",
+      "operator": "Online",
+      "created": "21/05/2026 10:03"
+    },
+    {
+      "hgc_code": "HGC-036518-TM",
+      "title": "3 Hot Chilli Peppers Extra",
+      "trade_name": "3 Hot Chilli Peppers Extra",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:04"
+    },
+    {
+      "hgc_code": "HGC-036520-TM",
+      "title": "4 Dragon Pots",
+      "trade_name": "4 Dragon Pots",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:06"
+    },
+    {
+      "hgc_code": "HGC-036519-TM",
+      "title": "3 Runaway Riches",
+      "trade_name": "3 Runaway Riches",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:11"
+    },
+    {
+      "hgc_code": "HGC-036521-TM",
+      "title": "Fruit Lightning 3x5",
+      "trade_name": "Fruit Lightning 3x5",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:12"
+    },
+    {
+      "hgc_code": "HGC-036522-TM",
+      "title": "Heartbreakers",
+      "trade_name": "Heartbreakers",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:13"
+    },
+    {
+      "hgc_code": "HGC-036523-TM",
+      "title": "Fruity Hold & Blitz",
+      "trade_name": "Fruity Hold & Blitz",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:15"
+    },
+    {
+      "hgc_code": "HGC-036525-TM",
+      "title": "9th Legion Coin Boost",
+      "trade_name": "9th Legion Coin Boost",
+      "manufacturer": "IGT MALTA CASINO LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:16"
+    },
+    {
+      "hgc_code": "HGC-036527-TM",
+      "title": "Privé Lounge Russian Poker",
+      "trade_name": "Privé Lounge Russian Poker",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:17"
+    },
+    {
+      "hgc_code": "HGC-036529-TM",
+      "title": "Bank That Honey",
+      "trade_name": "Bank That Honey",
+      "manufacturer": "PUSH GAMING MALTA LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:18"
+    },
+    {
+      "hgc_code": "HGC-036528-TM",
+      "title": "Fruit Merge Megapots",
+      "trade_name": "Fruit Merge Megapots",
+      "manufacturer": "Evolution Malta Limited",
+      "operator": "Online",
+      "created": "21/05/2026 10:19"
+    },
+    {
+      "hgc_code": "HGC-036530-TM",
+      "title": "3 Liberty Eagles",
+      "trade_name": "3 Liberty Eagles",
+      "manufacturer": "PUSH GAMING MALTA LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:21"
+    },
+    {
+      "hgc_code": "HGC-036531-TM",
+      "title": "The Crime File",
+      "trade_name": "The Crime File",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:22"
+    },
+    {
+      "hgc_code": "HGC-036535-TM",
+      "title": "Great Game Rockies",
+      "trade_name": "Great Game Rockies",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "21/05/2026 10:23"
+    },
+    {
+      "hgc_code": "HGC-036547-TM",
+      "title": "Shining Crown Extreme Ca$h Heat",
+      "trade_name": "Shining Crown Extreme Ca$h Heat",
+      "manufacturer": "EURO GAMES TECHNOLOGY LTD",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "21/05/2026 10:52"
+    },
+    {
+      "hgc_code": "HGC-036593-TM",
+      "title": "Razor Shark Jackpots",
+      "trade_name": "Razor Shark Jackpots",
+      "manufacturer": "PUSH GAMING MALTA LIMITED",
+      "operator": "Online",
+      "created": "21/05/2026 10:53"
+    }
+  ]
 }
