@@ -1,5 +1,38 @@
 {
-  "generated_at": "2026-05-24T08:57:52.812390",
-  "new_count": 0,
-  "items": []
+  "generated_at": "2026-05-25T09:26:56.262370",
+  "new_count": 4,
+  "items": [
+    {
+      "hgc_code": "HGC-036575-TM",
+      "title": "Jester’s Gift",
+      "trade_name": "Jester’s Gift",
+      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "25/05/2026 08:26"
+    },
+    {
+      "hgc_code": "HGC-036591-TM",
+      "title": "Multi Coins",
+      "trade_name": "Multi Coins",
+      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "25/05/2026 08:27"
+    },
+    {
+      "hgc_code": "HGC-036650-TM",
+      "title": "3 Royal Dracos ",
+      "trade_name": "3 Royal Dracos ",
+      "manufacturer": "Endorphina Limited",
+      "operator": "Online",
+      "created": "25/05/2026 08:31"
+    },
+    {
+      "hgc_code": "HGC-036654-TM",
+      "title": "Burning Coins 40",
+      "trade_name": "Burning Coins 40",
+      "manufacturer": "Endorphina Limited",
+      "operator": "Online",
+      "created": "25/05/2026 08:32"
+    }
+  ]
 }
