@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-05-25T09:26:56.262370",
+  "generated_at": "2026-05-26T09:13:54.101669",
   "new_count": 4,
   "items": [
     {
-      "hgc_code": "HGC-036575-TM",
-      "title": "Jester’s Gift",
-      "trade_name": "Jester’s Gift",
-      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
-      "operator": "VLT ΟΠΑΠ ΑΕ",
-      "created": "25/05/2026 08:26"
-    },
-    {
-      "hgc_code": "HGC-036591-TM",
-      "title": "Multi Coins",
-      "trade_name": "Multi Coins",
-      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
-      "operator": "VLT ΟΠΑΠ ΑΕ",
-      "created": "25/05/2026 08:27"
-    },
-    {
-      "hgc_code": "HGC-036650-TM",
-      "title": "3 Royal Dracos ",
-      "trade_name": "3 Royal Dracos ",
-      "manufacturer": "Endorphina Limited",
+      "hgc_code": "HGC-036584-TM",
+      "title": "Gnaw'n Gold",
+      "trade_name": "Gnaw'n Gold",
+      "manufacturer": "PLAY'N GO MALTA LIMITED",
       "operator": "Online",
-      "created": "25/05/2026 08:31"
+      "created": "25/05/2026 14:26"
     },
     {
-      "hgc_code": "HGC-036654-TM",
-      "title": "Burning Coins 40",
-      "trade_name": "Burning Coins 40",
-      "manufacturer": "Endorphina Limited",
+      "hgc_code": "HGC-036586-TM",
+      "title": "Moon Princess Extreme",
+      "trade_name": "Moon Princess Extreme",
+      "manufacturer": "PLAY'N GO MALTA LIMITED",
       "operator": "Online",
-      "created": "25/05/2026 08:32"
+      "created": "25/05/2026 14:31"
+    },
+    {
+      "hgc_code": "HGC-036587-TM",
+      "title": "Triple Launch Fortune Wild",
+      "trade_name": "Triple Launch Fortune Wild",
+      "manufacturer": "PLAY'N GO MALTA LIMITED",
+      "operator": "Online",
+      "created": "25/05/2026 14:32"
+    },
+    {
+      "hgc_code": "HGC-036555-TM",
+      "title": "Dragon's Gate - Bonus Choice",
+      "trade_name": "Dragon's Gate - Bonus Choice",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "26/05/2026 08:21"
     }
   ]
 }
