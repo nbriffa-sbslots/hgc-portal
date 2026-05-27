@@ -1,38 +1,614 @@
 {
-  "generated_at": "2026-05-26T09:13:54.101669",
-  "new_count": 4,
+  "generated_at": "2026-05-27T09:13:00.253454",
+  "new_count": 76,
   "items": [
     {
-      "hgc_code": "HGC-036584-TM",
-      "title": "Gnaw'n Gold",
-      "trade_name": "Gnaw'n Gold",
-      "manufacturer": "PLAY'N GO MALTA LIMITED",
+      "hgc_code": "HGC-036541-TM",
+      "title": "4 Fairy Flowers",
+      "trade_name": "4 Fairy Flowers",
+      "manufacturer": "ONE ROCK LIMITED",
       "operator": "Online",
-      "created": "25/05/2026 14:26"
+      "created": "26/05/2026 12:51"
     },
     {
-      "hgc_code": "HGC-036586-TM",
-      "title": "Moon Princess Extreme",
-      "trade_name": "Moon Princess Extreme",
-      "manufacturer": "PLAY'N GO MALTA LIMITED",
+      "hgc_code": "HGC-036542-TM",
+      "title": "4 Fairy Flowers",
+      "trade_name": "4 Fairy Flowers",
+      "manufacturer": "ONE ROCK LIMITED",
       "operator": "Online",
-      "created": "25/05/2026 14:31"
+      "created": "26/05/2026 12:52"
     },
     {
-      "hgc_code": "HGC-036587-TM",
-      "title": "Triple Launch Fortune Wild",
-      "trade_name": "Triple Launch Fortune Wild",
-      "manufacturer": "PLAY'N GO MALTA LIMITED",
+      "hgc_code": "HGC-036545-TM",
+      "title": "Le Football Fan",
+      "trade_name": "Le Football Fan",
+      "manufacturer": "HGMT LTD",
       "operator": "Online",
-      "created": "25/05/2026 14:32"
+      "created": "26/05/2026 12:56"
     },
     {
-      "hgc_code": "HGC-036555-TM",
-      "title": "Dragon's Gate - Bonus Choice",
-      "trade_name": "Dragon's Gate - Bonus Choice",
+      "hgc_code": "HGC-036544-TM",
+      "title": "Everlasting Turtle",
+      "trade_name": "Everlasting Turtle",
+      "manufacturer": "ISB MAGMA LIMITED",
+      "operator": "Online",
+      "created": "26/05/2026 12:57"
+    },
+    {
+      "hgc_code": "HGC-036537-TM",
+      "title": "Behind Bars: Masterplan",
+      "trade_name": "Behind Bars: Masterplan",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "26/05/2026 12:59"
+    },
+    {
+      "hgc_code": "HGC-036540-TM",
+      "title": "Tiger and Dragon Super Arrow",
+      "trade_name": "Tiger and Dragon Super Arrow",
+      "manufacturer": "ISB MAGMA LIMITED",
+      "operator": "Online",
+      "created": "26/05/2026 13:00"
+    },
+    {
+      "hgc_code": "HGC-036546-TM",
+      "title": "Cub Cabana",
+      "trade_name": "Cub Cabana",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "26/05/2026 13:02"
+    },
+    {
+      "hgc_code": "HGC-036548-TM",
+      "title": "Hi-Lo Baccarat",
+      "trade_name": "Hi-Lo Baccarat",
       "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
       "operator": "Online",
-      "created": "26/05/2026 08:21"
+      "created": "26/05/2026 13:07"
+    },
+    {
+      "hgc_code": "HGC-036551-TM",
+      "title": "Candy Combo 2 Power Combo™",
+      "trade_name": "Candy Combo 2 Power Combo™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "26/05/2026 13:09"
+    },
+    {
+      "hgc_code": "HGC-036552-TM",
+      "title": "FlyX™ Cash Turbo™",
+      "trade_name": "FlyX™ Cash Turbo™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "26/05/2026 13:10"
+    },
+    {
+      "hgc_code": "HGC-036554-TM",
+      "title": "FlyX",
+      "trade_name": "FlyX",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "26/05/2026 13:12"
+    },
+    {
+      "hgc_code": "HGC-036558-TM",
+      "title": "Enigma of Egypt",
+      "trade_name": "Enigma of Egypt",
+      "manufacturer": "SWINTT MALTA LIMITED",
+      "operator": "Online",
+      "created": "26/05/2026 13:13"
+    },
+    {
+      "hgc_code": "HGC-036557-TM",
+      "title": "Great Rhino Deluxe",
+      "trade_name": "Great Rhino Deluxe",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "26/05/2026 13:14"
+    },
+    {
+      "hgc_code": "HGC-036563-TM",
+      "title": "Brawler's Brew",
+      "trade_name": "Brawler's Brew",
+      "manufacturer": "QUICKSPIN AB",
+      "operator": "Online",
+      "created": "26/05/2026 13:15"
+    },
+    {
+      "hgc_code": "HGC-036564-TM",
+      "title": "El Capy",
+      "trade_name": "El Capy",
+      "manufacturer": "QUICKSPIN AB",
+      "operator": "Online",
+      "created": "26/05/2026 13:16"
+    },
+    {
+      "hgc_code": "HGC-036565-TM",
+      "title": "Money Maker 2",
+      "trade_name": "Money Maker 2",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "26/05/2026 13:17"
+    },
+    {
+      "hgc_code": "HGC-036566-TM",
+      "title": "Golden Flaming Dragon",
+      "trade_name": "Golden Flaming Dragon",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "26/05/2026 13:19"
+    },
+    {
+      "hgc_code": "HGC-036567-TM",
+      "title": "Money Maker 2 [Buy Bonus]",
+      "trade_name": "Money Maker 2 [Buy Bonus]",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "26/05/2026 13:20"
+    },
+    {
+      "hgc_code": "HGC-036568-TM",
+      "title": "San Quentin Manhunt",
+      "trade_name": "San Quentin Manhunt",
+      "manufacturer": "Evolution Malta Limited",
+      "operator": "Online",
+      "created": "26/05/2026 13:21"
+    },
+    {
+      "hgc_code": "HGC-036571-TM",
+      "title": "Fortune Flows",
+      "trade_name": "Fortune Flows",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "26/05/2026 13:26"
+    },
+    {
+      "hgc_code": "HGC-036572-TM",
+      "title": "Treble Riches",
+      "trade_name": "Treble Riches",
+      "manufacturer": "EveryMatrix Software Limited",
+      "operator": "Online",
+      "created": "26/05/2026 13:27"
+    },
+    {
+      "hgc_code": "HGC-036574-TM",
+      "title": "Magic Panda Riches",
+      "trade_name": "Magic Panda Riches",
+      "manufacturer": "EGC Services Limited ",
+      "operator": "Online",
+      "created": "26/05/2026 13:28"
+    },
+    {
+      "hgc_code": "HGC-036573-TM",
+      "title": "Jaguar Gems Pot",
+      "trade_name": "Jaguar Gems Pot",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "26/05/2026 13:29"
+    },
+    {
+      "hgc_code": "HGC-036543-TM",
+      "title": "French Roulette",
+      "trade_name": "French Roulette",
+      "manufacturer": "Evolution Malta Limited",
+      "operator": "Online",
+      "created": "27/05/2026 09:46"
+    },
+    {
+      "hgc_code": "HGC-036576-TM",
+      "title": "Emperor's Vault",
+      "trade_name": "Emperor's Vault",
+      "manufacturer": "EGC Services Limited ",
+      "operator": "Online",
+      "created": "27/05/2026 09:48"
+    },
+    {
+      "hgc_code": "HGC-036579-TM",
+      "title": "Dandy Diamonds ",
+      "trade_name": "Dandy Diamonds ",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "27/05/2026 09:49"
+    },
+    {
+      "hgc_code": "HGC-036580-TM",
+      "title": "Le Novibet",
+      "trade_name": "Le Novibet",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "27/05/2026 09:50"
+    },
+    {
+      "hgc_code": "HGC-036585-TM",
+      "title": "Dessert Kingdom [Ante Bet]",
+      "trade_name": "Dessert Kingdom [Ante Bet]",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "27/05/2026 09:57"
+    },
+    {
+      "hgc_code": "HGC-036588-TM",
+      "title": "Big Small Baccarat",
+      "trade_name": "Big Small Baccarat",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 09:58"
+    },
+    {
+      "hgc_code": "HGC-036589-TM",
+      "title": "The Big Dog House",
+      "trade_name": "The Big Dog House",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:00"
+    },
+    {
+      "hgc_code": "HGC-036592-TM",
+      "title": "Whitney Houston I Wanna Dance with Somebody",
+      "trade_name": "Whitney Houston I Wanna Dance with Somebody",
+      "manufacturer": "IGT MALTA CASINO LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:04"
+    },
+    {
+      "hgc_code": "HGC-036598-TM",
+      "title": "Golden Penny x1000: Power Chance™",
+      "trade_name": "Golden Penny x1000: Power Chance™",
+      "manufacturer": "Playson Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:06"
+    },
+    {
+      "hgc_code": "HGC-036599-TM",
+      "title": "3 Pots of Potions Bonus Pot ",
+      "trade_name": "3 Pots of Potions Bonus Pot ",
+      "manufacturer": "GAMING CORPS MALTA LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:07"
+    },
+    {
+      "hgc_code": "HGC-036600-TM",
+      "title": "Tomb of Wishes",
+      "trade_name": "Tomb of Wishes",
+      "manufacturer": "GAMING CORPS MALTA LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:09"
+    },
+    {
+      "hgc_code": "HGC-036601-TM",
+      "title": "Raidmark",
+      "trade_name": "Raidmark",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:11"
+    },
+    {
+      "hgc_code": "HGC-036602-TM",
+      "title": "Aphrodite Legends of Olympus ",
+      "trade_name": "Aphrodite Legends of Olympus ",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:12"
+    },
+    {
+      "hgc_code": "HGC-036603-TM",
+      "title": "Lucky Penny Power Scatter ",
+      "trade_name": "Lucky Penny Power Scatter ",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:16"
+    },
+    {
+      "hgc_code": "HGC-036605-TM",
+      "title": "Stars Bonanza 3x3™",
+      "trade_name": "Stars Bonanza 3x3™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "27/05/2026 10:17"
+    },
+    {
+      "hgc_code": "HGC-036606-TM",
+      "title": "Big Kahuna Epic Eruption Power Combo™",
+      "trade_name": "Big Kahuna Epic Eruption Power Combo™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "27/05/2026 10:18"
+    },
+    {
+      "hgc_code": "HGC-036609-TM",
+      "title": "3 Tree Tricksters 2",
+      "trade_name": "3 Tree Tricksters 2",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:20"
+    },
+    {
+      "hgc_code": "HGC-036604-TM",
+      "title": "Lucky Penny Power Scatter",
+      "trade_name": "Lucky Penny Power Scatter",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:20"
+    },
+    {
+      "hgc_code": "HGC-036610-TM",
+      "title": "Squid Game Red Light Green Light",
+      "trade_name": "Squid Game Red Light Green Light",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:21"
+    },
+    {
+      "hgc_code": "HGC-036611-TM",
+      "title": "Arena of Iron",
+      "trade_name": "Arena of Iron",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:22"
+    },
+    {
+      "hgc_code": "HGC-036612-TM",
+      "title": "Gold Fever Mine All Mine",
+      "trade_name": "Gold Fever Mine All Mine",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:23"
+    },
+    {
+      "hgc_code": "HGC-036614-TM",
+      "title": "FISH TALES HALLOWEEN",
+      "trade_name": "FISH TALES HALLOWEEN",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "27/05/2026 10:24"
+    },
+    {
+      "hgc_code": "HGC-036613-TM",
+      "title": "Nitro Nights ",
+      "trade_name": "Nitro Nights ",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:25"
+    },
+    {
+      "hgc_code": "HGC-036615-TM",
+      "title": "Serpent Gold 2: Hold & Win",
+      "trade_name": "Serpent Gold 2: Hold & Win",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:26"
+    },
+    {
+      "hgc_code": "HGC-036616-TM",
+      "title": "Mr. Oinkster’s Hold and Win",
+      "trade_name": "Mr. Oinkster’s Hold and Win",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "27/05/2026 10:27"
+    },
+    {
+      "hgc_code": "HGC-036618-TM",
+      "title": "Jiggy's Pot O' Gold",
+      "trade_name": "Jiggy's Pot O' Gold",
+      "manufacturer": "PUSH GAMING MALTA LIMITED",
+      "operator": "Online",
+      "created": "27/05/2026 10:28"
+    },
+    {
+      "hgc_code": "HGC-036619-TM",
+      "title": "Leprecat's Gold",
+      "trade_name": "Leprecat's Gold",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:29"
+    },
+    {
+      "hgc_code": "HGC-036620-TM",
+      "title": "Red Dragon Sails",
+      "trade_name": "Red Dragon Sails",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:31"
+    },
+    {
+      "hgc_code": "HGC-036621-TM",
+      "title": "Scrolls of Persia ",
+      "trade_name": "Scrolls of Persia ",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:32"
+    },
+    {
+      "hgc_code": "HGC-036623-TM",
+      "title": "Golden Dragons 5",
+      "trade_name": "Golden Dragons 5",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:33"
+    },
+    {
+      "hgc_code": "HGC-036628-TM",
+      "title": "Cozy Christmas 27",
+      "trade_name": "Cozy Christmas 27",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:34"
+    },
+    {
+      "hgc_code": "HGC-036624-TM",
+      "title": "Golden Seven 243",
+      "trade_name": "Golden Seven 243",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:36"
+    },
+    {
+      "hgc_code": "HGC-036629-TM",
+      "title": "Fruits On Fire",
+      "trade_name": "Fruits On Fire",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:37"
+    },
+    {
+      "hgc_code": "HGC-036639-TM",
+      "title": "Fire Wilds",
+      "trade_name": "Fire Wilds",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:38"
+    },
+    {
+      "hgc_code": "HGC-036625-TM",
+      "title": "Heat Reels 160+++",
+      "trade_name": "Heat Reels 160+++",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:39"
+    },
+    {
+      "hgc_code": "HGC-036636-TM",
+      "title": "Scarab Rush Power Combo™",
+      "trade_name": "Scarab Rush Power Combo™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "27/05/2026 10:40"
+    },
+    {
+      "hgc_code": "HGC-036640-TM",
+      "title": "ArcanaPop",
+      "trade_name": "ArcanaPop",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:41"
+    },
+    {
+      "hgc_code": "HGC-036646-TM",
+      "title": "Aztec Ritual",
+      "trade_name": "Aztec Ritual",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:43"
+    },
+    {
+      "hgc_code": "HGC-036630-TM",
+      "title": "Gold In Flames",
+      "trade_name": "Gold In Flames",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:44"
+    },
+    {
+      "hgc_code": "HGC-036626-TM",
+      "title": "Lucky Joker",
+      "trade_name": "Lucky Joker",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:45"
+    },
+    {
+      "hgc_code": "HGC-036647-TM",
+      "title": "Soul Dealer ",
+      "trade_name": "Soul Dealer ",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:46"
+    },
+    {
+      "hgc_code": "HGC-036631-TM",
+      "title": "Joker Boom + Exclusive",
+      "trade_name": "Joker Boom + Exclusive",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:48"
+    },
+    {
+      "hgc_code": "HGC-036627-TM",
+      "title": "Rob The Bank",
+      "trade_name": "Rob The Bank",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:49"
+    },
+    {
+      "hgc_code": "HGC-036648-TM",
+      "title": "SPELLBOOK",
+      "trade_name": "SPELLBOOK",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:50"
+    },
+    {
+      "hgc_code": "HGC-036632-TM",
+      "title": "Multi Blast 81",
+      "trade_name": "Multi Blast 81",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:51"
+    },
+    {
+      "hgc_code": "HGC-036649-TM",
+      "title": "Haunted Circus ",
+      "trade_name": "Haunted Circus ",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:52"
+    },
+    {
+      "hgc_code": "HGC-036633-TM",
+      "title": "Rob The Bank 2",
+      "trade_name": "Rob The Bank 2",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:56"
+    },
+    {
+      "hgc_code": "HGC-036651-TM",
+      "title": "Pharaoh Fortune",
+      "trade_name": "Pharaoh Fortune",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:57"
+    },
+    {
+      "hgc_code": "HGC-036634-TM",
+      "title": "Simply The Best 81 Exclusive",
+      "trade_name": "Simply The Best 81 Exclusive",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 10:58"
+    },
+    {
+      "hgc_code": "HGC-036652-TM",
+      "title": "Profiteroll",
+      "trade_name": "Profiteroll",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 10:59"
+    },
+    {
+      "hgc_code": "HGC-036635-TM",
+      "title": "Super Joker 40 Exclusive",
+      "trade_name": "Super Joker 40 Exclusive",
+      "manufacturer": "Development MT",
+      "operator": "Online",
+      "created": "27/05/2026 11:00"
+    },
+    {
+      "hgc_code": "HGC-036653-TM",
+      "title": "Sea of Fortune",
+      "trade_name": "Sea of Fortune",
+      "manufacturer": "3V GAMING LTD",
+      "operator": "Online",
+      "created": "27/05/2026 11:01"
+    },
+    {
+      "hgc_code": "HGC-036622-TM",
+      "title": "DigiWheel 64 sectors",
+      "trade_name": "DigiWheel 64 sectors",
+      "manufacturer": "Evolution Malta Limited",
+      "operator": "Online",
+      "created": "27/05/2026 10:30"
     }
   ]
 }
