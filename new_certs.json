@@ -1,270 +1,46 @@
 {
-  "generated_at": "2026-05-28T09:19:27.533936",
-  "new_count": 33,
+  "generated_at": "2026-05-29T09:15:46.004351",
+  "new_count": 5,
   "items": [
     {
-      "hgc_code": "HGC-036569-TM",
-      "title": "Jekyll & Hyde Co",
-      "trade_name": "Jekyll & Hyde Co",
-      "manufacturer": "SWINTT MALTA LIMITED",
+      "hgc_code": "HGC-036577-TM",
+      "title": "Maradona Golden Goal",
+      "trade_name": "Maradona Golden Goal",
+      "manufacturer": "Blueprint Technologies (Malta) Ltd.",
       "operator": "Online",
-      "created": "28/05/2026 09:52"
+      "created": "28/05/2026 16:41"
     },
     {
-      "hgc_code": "HGC-036570-TM",
-      "title": "Mummy Mia",
-      "trade_name": "Mummy Mia",
-      "manufacturer": "G Gaming Limited",
+      "hgc_code": "HGC-036578-TM",
+      "title": "Hot Slot™: Platinum Coins",
+      "trade_name": "Hot Slot™: Platinum Coins",
+      "manufacturer": "Wazdan Limited",
       "operator": "Online",
-      "created": "28/05/2026 09:53"
+      "created": "28/05/2026 16:42"
     },
     {
-      "hgc_code": "HGC-036641-TM",
-      "title": "Greedy for Gold Power Hit",
-      "trade_name": "Greedy for Gold Power Hit",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "hgc_code": "HGC-036645-TM",
+      "title": "BananaX",
+      "trade_name": "BananaX",
+      "manufacturer": "EveryMatrix Software Limited",
       "operator": "Online",
-      "created": "28/05/2026 09:56"
+      "created": "28/05/2026 16:43"
     },
     {
-      "hgc_code": "HGC-036642-TM",
-      "title": "MDJ 4 Pots of Egypt",
-      "trade_name": "MDJ 4 Pots of Egypt",
-      "manufacturer": "ONE ROCK LIMITED",
+      "hgc_code": "HGC-036708-TM",
+      "title": "Crabby's Gold II",
+      "trade_name": "Crabby's Gold II",
+      "manufacturer": "PLAY'N GO MALTA LIMITED",
       "operator": "Online",
-      "created": "28/05/2026 09:57"
+      "created": "29/05/2026 12:06"
     },
     {
-      "hgc_code": "HGC-036644-TM",
-      "title": "MDJ 4 Pots of Egypt",
-      "trade_name": "MDJ 4 Pots of Egypt",
-      "manufacturer": "ONE ROCK LIMITED",
+      "hgc_code": "HGC-036712-TM",
+      "title": "Best Xmas",
+      "trade_name": "Best Xmas",
+      "manufacturer": "Endorphina Limited",
       "operator": "Online",
-      "created": "28/05/2026 09:58"
-    },
-    {
-      "hgc_code": "HGC-036667-TM",
-      "title": "Crash of The Gods",
-      "trade_name": "Crash of The Gods",
-      "manufacturer": "Abraserve Limited",
-      "operator": "Online",
-      "created": "28/05/2026 10:01"
-    },
-    {
-      "hgc_code": "HGC-036539-TM",
-      "title": "Ultimate Blackjack",
-      "trade_name": "Ultimate Blackjack",
-      "manufacturer": "IMAGINE LIVE RO S.R.L.",
-      "operator": "Online",
-      "created": "28/05/2026 10:03"
-    },
-    {
-      "hgc_code": "HGC-036655-TM",
-      "title": "Caishen's Cash Pots",
-      "trade_name": "Caishen's Cash Pots",
-      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:04"
-    },
-    {
-      "hgc_code": "HGC-036657-TM",
-      "title": "Sanatorium Secrets",
-      "trade_name": "Sanatorium Secrets",
-      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:06"
-    },
-    {
-      "hgc_code": "HGC-036661-TM",
-      "title": "Gloria Invicta",
-      "trade_name": "Gloria Invicta",
-      "manufacturer": "QUICKSPIN AB",
-      "operator": "Online",
-      "created": "28/05/2026 10:08"
-    },
-    {
-      "hgc_code": "HGC-036656-TM",
-      "title": "Joker's Revenge",
-      "trade_name": "Joker's Revenge",
-      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:09"
-    },
-    {
-      "hgc_code": "HGC-036668-TM",
-      "title": "Opa Santorini!",
-      "trade_name": "Opa Santorini!",
-      "manufacturer": "HGMT LTD",
-      "operator": "Online",
-      "created": "28/05/2026 10:11"
-    },
-    {
-      "hgc_code": "HGC-036662-TM",
-      "title": "Super 70 Stars",
-      "trade_name": "Super 70 Stars",
-      "manufacturer": "RED RAKE TECH SL",
-      "operator": "Online",
-      "created": "28/05/2026 10:13"
-    },
-    {
-      "hgc_code": "HGC-036665-TM",
-      "title": "Bushido Gold",
-      "trade_name": "Bushido Gold",
-      "manufacturer": "ELKAB Studios AB",
-      "operator": "Online",
-      "created": "28/05/2026 10:15"
-    },
-    {
-      "hgc_code": "HGC-036669-TM",
-      "title": "Beyond the Gate - Jackpot Play",
-      "trade_name": "Beyond the Gate - Jackpot Play",
-      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:16"
-    },
-    {
-      "hgc_code": "HGC-036670-TM",
-      "title": "Candy Rush",
-      "trade_name": "Candy Rush",
-      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:17"
-    },
-    {
-      "hgc_code": "HGC-036671-TM",
-      "title": "Huff N' Puff CollectR",
-      "trade_name": "Huff N' Puff CollectR",
-      "manufacturer": "ELKAB Studios AB",
-      "operator": "Online",
-      "created": "28/05/2026 10:21"
-    },
-    {
-      "hgc_code": "HGC-036672-TM",
-      "title": "Boots of Fortune",
-      "trade_name": "Boots of Fortune",
-      "manufacturer": "PUSH GAMING MALTA LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:22"
-    },
-    {
-      "hgc_code": "HGC-036673-TM",
-      "title": "Coin Collect: Piggy Patrons™ Extra Bank™",
-      "trade_name": "Coin Collect: Piggy Patrons™ Extra Bank™",
-      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
-      "operator": "Online",
-      "created": "28/05/2026 10:23"
-    },
-    {
-      "hgc_code": "HGC-036675-TM",
-      "title": "Ra & Cleopatra: Nile Rising™ Power Combo",
-      "trade_name": "Ra & Cleopatra: Nile Rising™ Power Combo",
-      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
-      "operator": "Online",
-      "created": "28/05/2026 10:24"
-    },
-    {
-      "hgc_code": "HGC-036674-TM",
-      "title": "Mighty Black Knight",
-      "trade_name": "Mighty Black Knight",
-      "manufacturer": "LNW Gaming Malta Limited",
-      "operator": "Online",
-      "created": "28/05/2026 10:25"
-    },
-    {
-      "hgc_code": "HGC-036676-TM",
-      "title": "TopLoot Payout LineNPay™",
-      "trade_name": "TopLoot Payout LineNPay™",
-      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
-      "operator": "Online",
-      "created": "28/05/2026 10:26"
-    },
-    {
-      "hgc_code": "HGC-036677-TM",
-      "title": "Flaming Stallion Blitz™",
-      "trade_name": "Flaming Stallion Blitz™",
-      "manufacturer": "JENELLCORE TRADING LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:27"
-    },
-    {
-      "hgc_code": "HGC-036678-TM",
-      "title": "Goal Goal Goal: Cash Collect™",
-      "trade_name": "Goal Goal Goal: Cash Collect™",
-      "manufacturer": "JENELLCORE TRADING LIMITED",
-      "operator": "Online",
-      "created": "28/05/2026 10:28"
-    },
-    {
-      "hgc_code": "HGC-036681-TM",
-      "title": "Berserkin' Buffalo Power Hit",
-      "trade_name": "Berserkin' Buffalo Power Hit",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:29"
-    },
-    {
-      "hgc_code": "HGC-036679-TM",
-      "title": "Diamond Hits Trio: InstaStrike",
-      "trade_name": "Diamond Hits Trio: InstaStrike",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:30"
-    },
-    {
-      "hgc_code": "HGC-036682-TM",
-      "title": "64 Nuggets: Hold and Win",
-      "trade_name": "64 Nuggets: Hold and Win",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:31"
-    },
-    {
-      "hgc_code": "HGC-036683-TM",
-      "title": "Fish Tales: Monster Bass 10,000",
-      "trade_name": "Fish Tales: Monster Bass 10,000",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:32"
-    },
-    {
-      "hgc_code": "HGC-036684-TM",
-      "title": "64 Presents Hold And Win",
-      "trade_name": "64 Presents Hold And Win",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:33"
-    },
-    {
-      "hgc_code": "HGC-036685-TM",
-      "title": "Gold Gold Gold Hold and Win",
-      "trade_name": "Gold Gold Gold Hold and Win",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:34"
-    },
-    {
-      "hgc_code": "HGC-036686-TM",
-      "title": "Polar Buffalo Hold and Win Extreme 25,000",
-      "trade_name": "Polar Buffalo Hold and Win Extreme 25,000",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:35"
-    },
-    {
-      "hgc_code": "HGC-036687-TM",
-      "title": "Santa In Vegas",
-      "trade_name": "Santa In Vegas",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:36"
-    },
-    {
-      "hgc_code": "HGC-036688-TM",
-      "title": "Tasty Bonanza 10,000",
-      "trade_name": "Tasty Bonanza 10,000",
-      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
-      "operator": "Online",
-      "created": "28/05/2026 10:37"
+      "created": "29/05/2026 12:07"
     }
   ]
 }
