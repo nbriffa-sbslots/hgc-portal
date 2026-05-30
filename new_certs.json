@@ -1,46 +1,14 @@
 {
-  "generated_at": "2026-05-29T09:15:46.004351",
-  "new_count": 5,
+  "generated_at": "2026-05-30T08:56:16.862569",
+  "new_count": 1,
   "items": [
     {
-      "hgc_code": "HGC-036577-TM",
-      "title": "Maradona Golden Goal",
-      "trade_name": "Maradona Golden Goal",
-      "manufacturer": "Blueprint Technologies (Malta) Ltd.",
-      "operator": "Online",
-      "created": "28/05/2026 16:41"
-    },
-    {
-      "hgc_code": "HGC-036578-TM",
-      "title": "Hot Slot™: Platinum Coins",
-      "trade_name": "Hot Slot™: Platinum Coins",
-      "manufacturer": "Wazdan Limited",
-      "operator": "Online",
-      "created": "28/05/2026 16:42"
-    },
-    {
-      "hgc_code": "HGC-036645-TM",
-      "title": "BananaX",
-      "trade_name": "BananaX",
-      "manufacturer": "EveryMatrix Software Limited",
-      "operator": "Online",
-      "created": "28/05/2026 16:43"
-    },
-    {
-      "hgc_code": "HGC-036708-TM",
-      "title": "Crabby's Gold II",
-      "trade_name": "Crabby's Gold II",
-      "manufacturer": "PLAY'N GO MALTA LIMITED",
-      "operator": "Online",
-      "created": "29/05/2026 12:06"
-    },
-    {
-      "hgc_code": "HGC-036712-TM",
-      "title": "Best Xmas",
-      "trade_name": "Best Xmas",
+      "hgc_code": "HGC-036732-TM",
+      "title": "2026 Hit Slot",
+      "trade_name": "2026 Hit Slot",
       "manufacturer": "Endorphina Limited",
       "operator": "Online",
-      "created": "29/05/2026 12:07"
+      "created": "29/05/2026 12:26"
     }
   ]
 }
