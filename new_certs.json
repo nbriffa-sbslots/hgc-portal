@@ -1,5 +1,1006 @@
 {
-  "generated_at": "2026-06-13T09:02:19.092852",
-  "new_count": 0,
-  "items": []
+  "generated_at": "2026-06-14T09:11:53.164430",
+  "new_count": 125,
+  "items": [
+    {
+      "hgc_code": "HGC-036733-TM",
+      "title": "Big Size Fishin 2",
+      "trade_name": "Big Size Fishin 2",
+      "manufacturer": "RED RAKE TECH SL",
+      "operator": "Online",
+      "created": "11/06/2026 08:16"
+    },
+    {
+      "hgc_code": "HGC-036734-TM",
+      "title": "Super Hot Flaming Pots Mrs Wong",
+      "trade_name": "Super Hot Flaming Pots Mrs Wong",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:17"
+    },
+    {
+      "hgc_code": "HGC-036714-TM",
+      "title": "Magic Clovers ",
+      "trade_name": "Magic Clovers ",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 08:21"
+    },
+    {
+      "hgc_code": "HGC-036715-TM",
+      "title": "Magic Clovers",
+      "trade_name": "Magic Clovers",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 08:22"
+    },
+    {
+      "hgc_code": "HGC-036735-TM",
+      "title": "Drill The Thrill",
+      "trade_name": "Drill The Thrill",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:23"
+    },
+    {
+      "hgc_code": "HGC-036736-TM",
+      "title": "Crabby Collector",
+      "trade_name": "Crabby Collector",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:25"
+    },
+    {
+      "hgc_code": "HGC-036737-TM",
+      "title": "Henry 8th Calves of Steel ",
+      "trade_name": "Henry 8th Calves of Steel ",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:26"
+    },
+    {
+      "hgc_code": "HGC-036738-TM",
+      "title": "3 Super Coin Volcanoes ",
+      "trade_name": "3 Super Coin Volcanoes ",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 08:31"
+    },
+    {
+      "hgc_code": "HGC-036739-TM",
+      "title": "3 Super Coin Volcanoes ",
+      "trade_name": "3 Super Coin Volcanoes ",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 08:33"
+    },
+    {
+      "hgc_code": "HGC-035802-TM",
+      "title": "Gus's Gold: Gemstone Blast",
+      "trade_name": "Gus's Gold: Gemstone Blast",
+      "manufacturer": "ISB MAGMA LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 08:34"
+    },
+    {
+      "hgc_code": "HGC-036700-TM",
+      "title": "Bonzo's Bananza",
+      "trade_name": "Bonzo's Bananza",
+      "manufacturer": "ELKAB Studios AB",
+      "operator": "Online",
+      "created": "11/06/2026 08:35"
+    },
+    {
+      "hgc_code": "HGC-036701-TM",
+      "title": "Ryze 2",
+      "trade_name": "Ryze 2",
+      "manufacturer": "ELKAB Studios AB",
+      "operator": "Online",
+      "created": "11/06/2026 08:36"
+    },
+    {
+      "hgc_code": "HGC-036704-TM",
+      "title": "Tombstone Begins",
+      "trade_name": "Tombstone Begins",
+      "manufacturer": "Evolution Malta Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:37"
+    },
+    {
+      "hgc_code": "HGC-036706-TM",
+      "title": "Death Becomes You ",
+      "trade_name": "Death Becomes You ",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:38"
+    },
+    {
+      "hgc_code": "HGC-036705-TM",
+      "title": "Crownlings Clusters",
+      "trade_name": "Crownlings Clusters",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:39"
+    },
+    {
+      "hgc_code": "HGC-036707-TM",
+      "title": "Darkside Prairie: Magical Beast",
+      "trade_name": "Darkside Prairie: Magical Beast",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "11/06/2026 08:40"
+    },
+    {
+      "hgc_code": "HGC-036710-TM",
+      "title": "Pulped The First Cut",
+      "trade_name": "Pulped The First Cut",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:41"
+    },
+    {
+      "hgc_code": "HGC-036711-TM",
+      "title": "Super Fish Grand Chance",
+      "trade_name": "Super Fish Grand Chance",
+      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "11/06/2026 08:42"
+    },
+    {
+      "hgc_code": "HGC-036718-TM",
+      "title": "Almighty Pegasus",
+      "trade_name": "Almighty Pegasus",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:43"
+    },
+    {
+      "hgc_code": "HGC-036720-TM",
+      "title": "Candy Treasures",
+      "trade_name": "Candy Treasures",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:44"
+    },
+    {
+      "hgc_code": "HGC-036719-TM",
+      "title": "Almighty Pegasus (94%)",
+      "trade_name": "Almighty Pegasus (94%)",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:45"
+    },
+    {
+      "hgc_code": "HGC-036724-TM",
+      "title": "Panda Pots",
+      "trade_name": "Panda Pots",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:46"
+    },
+    {
+      "hgc_code": "HGC-036721-TM",
+      "title": "Candy Treasures (94%)",
+      "trade_name": "Candy Treasures (94%)",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:47"
+    },
+    {
+      "hgc_code": "HGC-036722-TM",
+      "title": "Gold Gobblers",
+      "trade_name": "Gold Gobblers",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:48"
+    },
+    {
+      "hgc_code": "HGC-036727-TM",
+      "title": "40 Hot Diamond Desire",
+      "trade_name": "40 Hot Diamond Desire",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:51"
+    },
+    {
+      "hgc_code": "HGC-036723-TM",
+      "title": "Gold Gobblers (94%)",
+      "trade_name": "Gold Gobblers (94%)",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:52"
+    },
+    {
+      "hgc_code": "HGC-036725-TM",
+      "title": "Panda Pots (86%)",
+      "trade_name": "Panda Pots (86%)",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:53"
+    },
+    {
+      "hgc_code": "HGC-036729-TM",
+      "title": "Dreamy Genie",
+      "trade_name": "Dreamy Genie",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:54"
+    },
+    {
+      "hgc_code": "HGC-036728-TM",
+      "title": "40 Hot Diamond Desire 94%",
+      "trade_name": "40 Hot Diamond Desire 94%",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:55"
+    },
+    {
+      "hgc_code": "HGC-036726-TM",
+      "title": "Panda Pots (94%)",
+      "trade_name": "Panda Pots (94%)",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:56"
+    },
+    {
+      "hgc_code": "HGC-036730-TM",
+      "title": "Dreamy Genie 94%",
+      "trade_name": "Dreamy Genie 94%",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "11/06/2026 08:57"
+    },
+    {
+      "hgc_code": "HGC-036741-TM",
+      "title": "Lucky Penny ",
+      "trade_name": "Lucky Penny ",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 15:57"
+    },
+    {
+      "hgc_code": "HGC-036742-TM",
+      "title": "Lucky Penny",
+      "trade_name": "Lucky Penny",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "11/06/2026 15:58"
+    },
+    {
+      "hgc_code": "HGC-036358-TM",
+      "title": "Rock N’ Raccoons ",
+      "trade_name": "Rock N’ Raccoons ",
+      "manufacturer": "ZITRO FACTORY SLU",
+      "operator": "ΚΑΖΙΝΟ",
+      "created": "11/06/2026 16:00"
+    },
+    {
+      "hgc_code": "HGC-036357-TM",
+      "title": "Tied Up! Coins ",
+      "trade_name": "Tied Up! Coins ",
+      "manufacturer": "ZITRO FACTORY SLU",
+      "operator": "ΚΑΖΙΝΟ",
+      "created": "11/06/2026 16:01"
+    },
+    {
+      "hgc_code": "HGC-036982-TM",
+      "title": "Zeus Legends of Olympus ",
+      "trade_name": "Zeus Legends of Olympus ",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "12/06/2026 08:36"
+    },
+    {
+      "hgc_code": "HGC-036744-TM",
+      "title": "Ammit Treasure 2™ EverWheel™",
+      "trade_name": "Ammit Treasure 2™ EverWheel™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 11:56"
+    },
+    {
+      "hgc_code": "HGC-036745-TM",
+      "title": "3 Lucky Sparks",
+      "trade_name": "3 Lucky Sparks",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:01"
+    },
+    {
+      "hgc_code": "HGC-036746-TM",
+      "title": "3 Lucky Sparks",
+      "trade_name": "3 Lucky Sparks",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:03"
+    },
+    {
+      "hgc_code": "HGC-036747-TM",
+      "title": "Lucky Charms Trio",
+      "trade_name": "Lucky Charms Trio",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:04"
+    },
+    {
+      "hgc_code": "HGC-036748-TM",
+      "title": "Elemento Dragons",
+      "trade_name": "Elemento Dragons",
+      "manufacturer": "EveryMatrix Software Limited",
+      "operator": "Online",
+      "created": "12/06/2026 12:05"
+    },
+    {
+      "hgc_code": "HGC-036749-TM",
+      "title": "Power of Hercules Bonanza 10,000",
+      "trade_name": "Power of Hercules Bonanza 10,000",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:07"
+    },
+    {
+      "hgc_code": "HGC-036751-TM",
+      "title": "Trollfufu Bonanza",
+      "trade_name": "Trollfufu Bonanza",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:12"
+    },
+    {
+      "hgc_code": "HGC-036750-TM",
+      "title": "Sacred Buffalo",
+      "trade_name": "Sacred Buffalo",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:14"
+    },
+    {
+      "hgc_code": "HGC-036752-TM",
+      "title": "Twin Buffalo: Hold and Win",
+      "trade_name": "Twin Buffalo: Hold and Win",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:16"
+    },
+    {
+      "hgc_code": "HGC-036753-TM",
+      "title": "Ultra Buffalo Hold and Win",
+      "trade_name": "Ultra Buffalo Hold and Win",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:18"
+    },
+    {
+      "hgc_code": "HGC-036754-TM",
+      "title": "The Jokeress 10000™",
+      "trade_name": "The Jokeress 10000™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:20"
+    },
+    {
+      "hgc_code": "HGC-036755-TM",
+      "title": "The Jokeress™",
+      "trade_name": "The Jokeress™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:21"
+    },
+    {
+      "hgc_code": "HGC-036756-TM",
+      "title": "7 Fruits of Riches",
+      "trade_name": "7 Fruits of Riches",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:23"
+    },
+    {
+      "hgc_code": "HGC-036761-TM",
+      "title": "Piggy Prizes Wish of Riches 2 [Xtreme Bet Buy Bonus]",
+      "trade_name": "Piggy Prizes Wish of Riches 2 [Xtreme Bet Buy Bonus]",
+      "manufacturer": "Greentube Malta Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:24"
+    },
+    {
+      "hgc_code": "HGC-036757-TM",
+      "title": "Inferno Fortune InstaStrike",
+      "trade_name": "Inferno Fortune InstaStrike",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:25"
+    },
+    {
+      "hgc_code": "HGC-036758-TM",
+      "title": "Mr. Oinkster's Power Hit",
+      "trade_name": "Mr. Oinkster's Power Hit",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:26"
+    },
+    {
+      "hgc_code": "HGC-036762-TM",
+      "title": "Alice in Cashland ",
+      "trade_name": "Alice in Cashland ",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:27"
+    },
+    {
+      "hgc_code": "HGC-036764-TM",
+      "title": " 3 Scarabs of Fortune",
+      "trade_name": " 3 Scarabs of Fortune",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:28"
+    },
+    {
+      "hgc_code": "HGC-036759-TM",
+      "title": "Ronaldinho's Streetball Bonanza",
+      "trade_name": "Ronaldinho's Streetball Bonanza",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 12:29"
+    },
+    {
+      "hgc_code": "HGC-036768-TM",
+      "title": "3 China Pots",
+      "trade_name": "3 China Pots",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:30"
+    },
+    {
+      "hgc_code": "HGC-036763-TM",
+      "title": "Super Wish Boost",
+      "trade_name": "Super Wish Boost",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:31"
+    },
+    {
+      "hgc_code": "HGC-036765-TM",
+      "title": "King of 7s",
+      "trade_name": "King of 7s",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:36"
+    },
+    {
+      "hgc_code": "HGC-036769-TM",
+      "title": "3 China Pots",
+      "trade_name": "3 China Pots",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:37"
+    },
+    {
+      "hgc_code": "HGC-036791-TM",
+      "title": "3 Energy Diamonds: Hold & Win ",
+      "trade_name": "3 Energy Diamonds: Hold & Win ",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:38"
+    },
+    {
+      "hgc_code": "HGC-036766-TM",
+      "title": "King Parrot Riches: Go Nuts",
+      "trade_name": "King Parrot Riches: Go Nuts",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:40"
+    },
+    {
+      "hgc_code": "HGC-036771-TM",
+      "title": "4 Clover Pots",
+      "trade_name": "4 Clover Pots",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:41"
+    },
+    {
+      "hgc_code": "HGC-036774-TM",
+      "title": "Fishin' Madness™ QUADGROWS™",
+      "trade_name": "Fishin' Madness™ QUADGROWS™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 12:42"
+    },
+    {
+      "hgc_code": "HGC-036773-TM",
+      "title": "Brawl Gods™",
+      "trade_name": "Brawl Gods™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 12:42"
+    },
+    {
+      "hgc_code": "HGC-036792-TM",
+      "title": "Cash Maximus:  Battle Arena ",
+      "trade_name": "Cash Maximus:  Battle Arena ",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:43"
+    },
+    {
+      "hgc_code": "HGC-036772-TM",
+      "title": "4 Clover Pots",
+      "trade_name": "4 Clover Pots",
+      "manufacturer": "ONE ROCK LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:44"
+    },
+    {
+      "hgc_code": "HGC-036767-TM",
+      "title": "The Lucky Fella: Hold & Win",
+      "trade_name": "The Lucky Fella: Hold & Win",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:45"
+    },
+    {
+      "hgc_code": "HGC-036775-TM",
+      "title": "Action Boost™ Amber Island 2",
+      "trade_name": "Action Boost™ Amber Island 2",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 12:46"
+    },
+    {
+      "hgc_code": "HGC-036776-TM",
+      "title": "Aztec Ritual",
+      "trade_name": "Aztec Ritual",
+      "manufacturer": "GAMING CORPS MALTA LTD",
+      "operator": "Online",
+      "created": "12/06/2026 12:47"
+    },
+    {
+      "hgc_code": "HGC-036793-TM",
+      "title": "Cash On Wheels:  Hold & Win ",
+      "trade_name": "Cash On Wheels:  Hold & Win ",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:48"
+    },
+    {
+      "hgc_code": "HGC-036778-TM",
+      "title": "TNT BOOM BANKS POWER COMBO™",
+      "trade_name": "TNT BOOM BANKS POWER COMBO™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 12:50"
+    },
+    {
+      "hgc_code": "HGC-036780-TM",
+      "title": "30 Coins Grand Gold Edition",
+      "trade_name": "30 Coins Grand Gold Edition",
+      "manufacturer": "Wazdan Limited",
+      "operator": "Online",
+      "created": "12/06/2026 12:51"
+    },
+    {
+      "hgc_code": "HGC-036794-TM",
+      "title": "Dynamite Trail:  Hold & Win ",
+      "trade_name": "Dynamite Trail:  Hold & Win ",
+      "manufacturer": "GAMESHOP MALTA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:52"
+    },
+    {
+      "hgc_code": "HGC-036781-TM",
+      "title": "15 Diamonds™",
+      "trade_name": "15 Diamonds™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:53"
+    },
+    {
+      "hgc_code": "HGC-036790-TM",
+      "title": "Triple Train Express™",
+      "trade_name": "Triple Train Express™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 12:54"
+    },
+    {
+      "hgc_code": "HGC-036782-TM",
+      "title": "Blazing Rainbows™",
+      "trade_name": "Blazing Rainbows™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:55"
+    },
+    {
+      "hgc_code": "HGC-036912-TM",
+      "title": "Siren of the Flames",
+      "trade_name": "Siren of the Flames",
+      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "12/06/2026 12:56"
+    },
+    {
+      "hgc_code": "HGC-036914-TM",
+      "title": "Pharaoh’s Desert Ca$h Heat",
+      "trade_name": "Pharaoh’s Desert Ca$h Heat",
+      "manufacturer": "EURO GAMES TECHNOLOGY LTD",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "12/06/2026 12:57"
+    },
+    {
+      "hgc_code": "HGC-036783-TM",
+      "title": "CoinFall: The Big Freeze™",
+      "trade_name": "CoinFall: The Big Freeze™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 12:58"
+    },
+    {
+      "hgc_code": "HGC-036918-TM",
+      "title": "Wolf It Up!",
+      "trade_name": "Wolf It Up!",
+      "manufacturer": "INSPIRED GAMING (GREECE) LIMITED ΥΠΟΚΑΤΑΣΤΗΜΑ ΕΛΛΑΔΟΣ",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "12/06/2026 12:59"
+    },
+    {
+      "hgc_code": "HGC-036784-TM",
+      "title": "Cougar Blitz™",
+      "trade_name": "Cougar Blitz™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:00"
+    },
+    {
+      "hgc_code": "HGC-036785-TM",
+      "title": "Eagle: Cash Collect & Link™",
+      "trade_name": "Eagle: Cash Collect & Link™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:01"
+    },
+    {
+      "hgc_code": "HGC-036786-TM",
+      "title": "Gold Trio: Zones™",
+      "trade_name": "Gold Trio: Zones™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:02"
+    },
+    {
+      "hgc_code": "HGC-036787-TM",
+      "title": "Grizzly Blitz™",
+      "trade_name": "Grizzly Blitz™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:03"
+    },
+    {
+      "hgc_code": "HGC-036788-TM",
+      "title": "Ladderz™",
+      "trade_name": "Ladderz™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:04"
+    },
+    {
+      "hgc_code": "HGC-036789-TM",
+      "title": "Wolf & Crown™",
+      "trade_name": "Wolf & Crown™",
+      "manufacturer": "JENELLCORE TRADING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 13:04"
+    },
+    {
+      "hgc_code": "HGC-036795-TM",
+      "title": "Bone Rush - Jackpot Play",
+      "trade_name": "Bone Rush - Jackpot Play",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 15:46"
+    },
+    {
+      "hgc_code": "HGC-036797-TM",
+      "title": "Coral Queen - Jackpot Play",
+      "trade_name": "Coral Queen - Jackpot Play",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 15:48"
+    },
+    {
+      "hgc_code": "HGC-036803-TM",
+      "title": "100 Stunning Dice",
+      "trade_name": "100 Stunning Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 15:49"
+    },
+    {
+      "hgc_code": "HGC-036798-TM",
+      "title": "Area Link™ Bank Baron",
+      "trade_name": "Area Link™ Bank Baron",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 15:51"
+    },
+    {
+      "hgc_code": "HGC-036804-TM",
+      "title": "27 Spooky Pumpkins Dice",
+      "trade_name": "27 Spooky Pumpkins Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 15:53"
+    },
+    {
+      "hgc_code": "HGC-036799-TM",
+      "title": "Rolling in Treasures",
+      "trade_name": "Rolling in Treasures",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 15:57"
+    },
+    {
+      "hgc_code": "HGC-036805-TM",
+      "title": "81 Joker Dice",
+      "trade_name": "81 Joker Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 15:59"
+    },
+    {
+      "hgc_code": "HGC-036806-TM",
+      "title": "9 Dice Multi",
+      "trade_name": "9 Dice Multi",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:02"
+    },
+    {
+      "hgc_code": "HGC-036800-TM",
+      "title": "Superbet Heroes",
+      "trade_name": "Superbet Heroes",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:04"
+    },
+    {
+      "hgc_code": "HGC-036807-TM",
+      "title": "Age of Pyramids Dice",
+      "trade_name": "Age of Pyramids Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:06"
+    },
+    {
+      "hgc_code": "HGC-036802-TM",
+      "title": "Bear Crazy",
+      "trade_name": "Bear Crazy",
+      "manufacturer": "ARRISE SOLUTIONS (MALTA) LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:08"
+    },
+    {
+      "hgc_code": "HGC-036808-TM",
+      "title": "Alchemist's Gold Dice",
+      "trade_name": "Alchemist's Gold Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:09"
+    },
+    {
+      "hgc_code": "HGC-036816-TM",
+      "title": "Kong Even Bigger Balls",
+      "trade_name": "Kong Even Bigger Balls",
+      "manufacturer": "Blueprint Technologies (Malta) Ltd.",
+      "operator": "Online",
+      "created": "12/06/2026 16:10"
+    },
+    {
+      "hgc_code": "HGC-036809-TM",
+      "title": "Dice Gold",
+      "trade_name": "Dice Gold",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:11"
+    },
+    {
+      "hgc_code": "HGC-036819-TM",
+      "title": "Samurai Rise Kimiko",
+      "trade_name": "Samurai Rise Kimiko",
+      "manufacturer": "ISB MAGMA LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:13"
+    },
+    {
+      "hgc_code": "HGC-036810-TM",
+      "title": "Dice Gold 243",
+      "trade_name": "Dice Gold 243",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:15"
+    },
+    {
+      "hgc_code": "HGC-036820-TM",
+      "title": "Trevor Hunter",
+      "trade_name": "Trevor Hunter",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "12/06/2026 16:16"
+    },
+    {
+      "hgc_code": "HGC-036822-TM",
+      "title": "Grug Make Fire",
+      "trade_name": "Grug Make Fire",
+      "manufacturer": "HGMT LTD",
+      "operator": "Online",
+      "created": "12/06/2026 16:18"
+    },
+    {
+      "hgc_code": "HGC-036821-TM",
+      "title": "Samba Gold",
+      "trade_name": "Samba Gold",
+      "manufacturer": "IGT MALTA CASINO LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:19"
+    },
+    {
+      "hgc_code": "HGC-036811-TM",
+      "title": "Dice Gold 81",
+      "trade_name": "Dice Gold 81",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:20"
+    },
+    {
+      "hgc_code": "HGC-036812-TM",
+      "title": "Golden Egg of T-REX Dice",
+      "trade_name": "Golden Egg of T-REX Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:27"
+    },
+    {
+      "hgc_code": "HGC-036824-TM",
+      "title": "Centurion Bigger Big Money",
+      "trade_name": "Centurion Bigger Big Money",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:28"
+    },
+    {
+      "hgc_code": "HGC-036823-TM",
+      "title": "Cops 'n' Robbers Bigger Big Money",
+      "trade_name": "Cops 'n' Robbers Bigger Big Money",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:29"
+    },
+    {
+      "hgc_code": "HGC-036825-TM",
+      "title": "Cops 'n' Robbers Big Money",
+      "trade_name": "Cops 'n' Robbers Big Money",
+      "manufacturer": "Inspired Entertainment (Malta) Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:31"
+    },
+    {
+      "hgc_code": "HGC-036813-TM",
+      "title": "Respin Joker 1000 Dice",
+      "trade_name": "Respin Joker 1000 Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:32"
+    },
+    {
+      "hgc_code": "HGC-036826-TM",
+      "title": "Shields of Gold: Valkyrie Hold & Win",
+      "trade_name": "Shields of Gold: Valkyrie Hold & Win",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 16:33"
+    },
+    {
+      "hgc_code": "HGC-036827-TM",
+      "title": "Booming Seven Deluxe Legacy",
+      "trade_name": "Booming Seven Deluxe Legacy",
+      "manufacturer": "BOOMING GAMES (MALTA) Ltd",
+      "operator": "Online",
+      "created": "12/06/2026 16:34"
+    },
+    {
+      "hgc_code": "HGC-036814-TM",
+      "title": "Volcano Explosive Dice",
+      "trade_name": "Volcano Explosive Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:35"
+    },
+    {
+      "hgc_code": "HGC-036828-TM",
+      "title": "Fruit Merge Megapots™",
+      "trade_name": "Fruit Merge Megapots™",
+      "manufacturer": "RELAX GAMING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:36"
+    },
+    {
+      "hgc_code": "HGC-036829-TM",
+      "title": "Leprechauns Gold Garden",
+      "trade_name": "Leprechauns Gold Garden",
+      "manufacturer": "LNW Gaming Malta Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:37"
+    },
+    {
+      "hgc_code": "HGC-036815-TM",
+      "title": "Wild Vaults Dice",
+      "trade_name": "Wild Vaults Dice",
+      "manufacturer": "Synot Games Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:38"
+    },
+    {
+      "hgc_code": "HGC-036830-TM",
+      "title": "Crown Frenzy LOCKNWIN™",
+      "trade_name": "Crown Frenzy LOCKNWIN™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 16:39"
+    },
+    {
+      "hgc_code": "HGC-036831-TM",
+      "title": "Dragon PrimeX™",
+      "trade_name": "Dragon PrimeX™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "12/06/2026 16:40"
+    },
+    {
+      "hgc_code": "HGC-036832-TM",
+      "title": "Midnight Marauder Cluster Breaker",
+      "trade_name": "Midnight Marauder Cluster Breaker",
+      "manufacturer": "RELAX GAMING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:41"
+    },
+    {
+      "hgc_code": "HGC-036834-TM",
+      "title": "Sticky Rabbit",
+      "trade_name": "Sticky Rabbit",
+      "manufacturer": "RELAX GAMING LIMITED",
+      "operator": "Online",
+      "created": "12/06/2026 16:42"
+    },
+    {
+      "hgc_code": "HGC-036835-TM",
+      "title": "Book of Riches Deluxe: Chapter 2 SE",
+      "trade_name": "Book of Riches Deluxe: Chapter 2 SE",
+      "manufacturer": "Rubyplay Trading Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:43"
+    },
+    {
+      "hgc_code": "HGC-036836-TM",
+      "title": "3 Thunder Coins: Hold and Win",
+      "trade_name": "3 Thunder Coins: Hold and Win",
+      "manufacturer": "Playson Limited",
+      "operator": "Online",
+      "created": "12/06/2026 16:44"
+    },
+    {
+      "hgc_code": "HGC-036839-TM",
+      "title": "Mega Coins 2",
+      "trade_name": "Mega Coins 2",
+      "manufacturer": "RED RAKE TECH SL",
+      "operator": "Online",
+      "created": "12/06/2026 16:45"
+    },
+    {
+      "hgc_code": "HGC-036926-TM",
+      "title": "Goal Kings Bell Link",
+      "trade_name": "Goal Kings Bell Link",
+      "manufacturer": "EGT DIGITAL EOOD (EGT DIGITAL LTD)",
+      "operator": "Online",
+      "created": "12/06/2026 16:46"
+    }
+  ]
 }
