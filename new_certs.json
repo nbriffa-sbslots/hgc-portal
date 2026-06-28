@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-06-27T09:00:52.540741",
-  "new_count": 0,
-  "items": []
+  "generated_at": "2026-06-28T09:08:55.851345",
+  "new_count": 6,
+  "items": [
+    {
+      "hgc_code": "HGC-037044-TM",
+      "title": "Argos Quest",
+      "trade_name": "Argos Quest",
+      "manufacturer": "Oryx Gaming Limited",
+      "operator": "Online",
+      "created": "26/06/2026 15:56"
+    },
+    {
+      "hgc_code": "HGC-037045-TM",
+      "title": "Gold Blitz Fortune Tower Fusion™",
+      "trade_name": "Gold Blitz Fortune Tower Fusion™",
+      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "operator": "Online",
+      "created": "26/06/2026 15:57"
+    },
+    {
+      "hgc_code": "HGC-037087-TM",
+      "title": "Bonanza Billion Xtreme",
+      "trade_name": "Bonanza Billion Xtreme",
+      "manufacturer": "STABLE GAMES LTD.",
+      "operator": "Online",
+      "created": "26/06/2026 16:02"
+    },
+    {
+      "hgc_code": "HGC-037089-TM",
+      "title": "Neopunk Charge Up",
+      "trade_name": "Neopunk Charge Up",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "26/06/2026 16:06"
+    },
+    {
+      "hgc_code": "HGC-037090-TM",
+      "title": "Golden Donkey Xpand",
+      "trade_name": "Golden Donkey Xpand",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "26/06/2026 16:07"
+    },
+    {
+      "hgc_code": "HGC-037091-TM",
+      "title": "Coo Coo Cashoo",
+      "trade_name": "Coo Coo Cashoo",
+      "manufacturer": "YGGDRASIL GAMING LTD",
+      "operator": "Online",
+      "created": "26/06/2026 16:08"
+    }
+  ]
 }
