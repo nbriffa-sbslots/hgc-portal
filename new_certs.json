@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-06-28T09:08:55.851345",
+  "generated_at": "2026-06-29T09:40:54.537439",
   "new_count": 6,
   "items": [
     {
-      "hgc_code": "HGC-037044-TM",
-      "title": "Argos Quest",
-      "trade_name": "Argos Quest",
-      "manufacturer": "Oryx Gaming Limited",
+      "hgc_code": "HGC-037035-TM",
+      "title": "Lucky Cauldron",
+      "trade_name": "Lucky Cauldron",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
       "operator": "Online",
-      "created": "26/06/2026 15:56"
+      "created": "29/06/2026 09:06"
     },
     {
-      "hgc_code": "HGC-037045-TM",
-      "title": "Gold Blitz Fortune Tower Fusion™",
-      "trade_name": "Gold Blitz Fortune Tower Fusion™",
-      "manufacturer": "PRIMA NETWORKS SPAIN PLC",
+      "hgc_code": "HGC-037036-TM",
+      "title": "3 Apex Treasures",
+      "trade_name": "3 Apex Treasures",
+      "manufacturer": "1x2 NETWORK MALTA LTD",
       "operator": "Online",
-      "created": "26/06/2026 15:57"
+      "created": "29/06/2026 09:12"
     },
     {
-      "hgc_code": "HGC-037087-TM",
-      "title": "Bonanza Billion Xtreme",
-      "trade_name": "Bonanza Billion Xtreme",
-      "manufacturer": "STABLE GAMES LTD.",
-      "operator": "Online",
-      "created": "26/06/2026 16:02"
+      "hgc_code": "HGC-037030-TM",
+      "title": "Athena’s Legacy Jumboways",
+      "trade_name": "Athena’s Legacy Jumboways",
+      "manufacturer": "EURO GAMES TECHNOLOGY LTD",
+      "operator": "VLT ΟΠΑΠ ΑΕ",
+      "created": "29/06/2026 09:13"
     },
     {
-      "hgc_code": "HGC-037089-TM",
-      "title": "Neopunk Charge Up",
-      "trade_name": "Neopunk Charge Up",
-      "manufacturer": "YGGDRASIL GAMING LTD",
+      "hgc_code": "HGC-037038-TM",
+      "title": "Crazy Octopus",
+      "trade_name": "Crazy Octopus",
+      "manufacturer": "AMUSNET Interactive Ltd.",
       "operator": "Online",
-      "created": "26/06/2026 16:06"
+      "created": "29/06/2026 09:14"
     },
     {
-      "hgc_code": "HGC-037090-TM",
-      "title": "Golden Donkey Xpand",
-      "trade_name": "Golden Donkey Xpand",
-      "manufacturer": "YGGDRASIL GAMING LTD",
+      "hgc_code": "HGC-037039-TM",
+      "title": "Phoenix Star Super Pot",
+      "trade_name": "Phoenix Star Super Pot",
+      "manufacturer": "AMUSNET Interactive Ltd.",
       "operator": "Online",
-      "created": "26/06/2026 16:07"
+      "created": "29/06/2026 09:15"
     },
     {
-      "hgc_code": "HGC-037091-TM",
-      "title": "Coo Coo Cashoo",
-      "trade_name": "Coo Coo Cashoo",
-      "manufacturer": "YGGDRASIL GAMING LTD",
+      "hgc_code": "HGC-037040-TM",
+      "title": "Porko Collect Super Pot",
+      "trade_name": "Porko Collect Super Pot",
+      "manufacturer": "AMUSNET Interactive Ltd.",
       "operator": "Online",
-      "created": "26/06/2026 16:08"
+      "created": "29/06/2026 09:16"
     }
   ]
 }
